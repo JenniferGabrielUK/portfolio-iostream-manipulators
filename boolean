@@ -14,6 +14,10 @@ int main()
     std::cout << std::noboolalpha;
     std::cout << "noboolalpha (10 == 10): " << (10 == 10) << std::endl;
     std::cout << "noboolalpha (10 == 20): " << (10 == 20) << std::endl;
+    //Use of setf method
+    std::cout.setf(std::ios::boolalpha);
+    std::cout << "noboolalpha (10 == 10): " << (10 == 10) << std::endl;
+    std::cout << "noboolalpha (10 == 20): " << (10 == 20) << std::endl;
 
 
     return 0;
