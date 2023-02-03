@@ -1,0 +1,23 @@
+// portfolio-iostream-examples.cpp : This file contains the 'main' function. Program execution begins and ends there.
+#include <iostream>
+#include <iomanip>
+
+int main() {
+
+    int num(123);
+    int num1(234);
+    int num2(333);
+
+    std::cout << "\n==========================" << std::endl;
+    std::cout << std::dec << num << std::endl;
+    std::cout << std::hex << num << std::endl; //hexidecimal
+    std::cout << std::oct << num << std::endl;
+    std::cout << std::dec << num1 << std::endl;
+    std::cout << std::hex << num1 << std::endl; //hexidecimal
+    std::cout << std::oct << num1 << std::endl;
+    std::cout << std::dec << num2 << std::endl;
+    std::cout << std::hex << num2 << std::endl; //hexidecimal
+    std::cout << std::oct << num2 << std::endl;
+
+    return 0;
+}
