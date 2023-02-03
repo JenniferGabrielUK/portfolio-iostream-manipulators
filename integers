@@ -33,6 +33,18 @@ int main() {
     std::cout << std::hex << num << std::endl;
     std::cout << std::hex << num1 << std::endl;
     std::cout << std::hex << num2 << std::endl;
+    //display + sign in front of positive base numbers
+    std::cout << "\n==========================" << std::endl;
+    std::cout << std::showpos;
+    std::cout << std::dec << num << std::endl;
+    std::cout << std::hex << num << std::endl; //hexidecimal
+    std::cout << std::oct << num << std::endl;
+    std::cout << std::dec << num1 << std::endl;
+    std::cout << std::hex << num1 << std::endl; //hexidecimal
+    std::cout << std::oct << num1 << std::endl;
+    std::cout << std::dec << num2 << std::endl;
+    std::cout << std::hex << num2 << std::endl; //hexidecimal
+    std::cout << std::oct << num2 << std::endl;
     
     return 0;
 }
