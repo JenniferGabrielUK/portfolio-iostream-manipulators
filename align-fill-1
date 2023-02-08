@@ -40,5 +40,10 @@ int main() {
     std::cout << std::left << std::setw(10) << num1 << std::endl;
     std::cout << std::left << std::setw(10) << num2 << std::endl;
     std::cout << std::left << std::setw(10) << hello << std::endl;
+    std::cout << std::setfill('-');
+    std::cout << "\n--Width10, justify left, set fill to dash---------" << std::endl;
+    std::cout << std::setw(10) << std::left << num1 << std::endl;
+    std::cout << std::setw(10) << std::left << num2 << std::endl;
+    std::cout << std::setw(10) << std::left << hello << std::endl;
     return 0;
 }
