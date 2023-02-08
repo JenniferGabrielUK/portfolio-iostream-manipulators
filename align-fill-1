@@ -3,6 +3,10 @@
 #include <string>
 #include <vector>
 
+void ruler() {
+    std::cout << "\n12345678901234567890123456789012345678901234567890" << std::endl;
+}
+
 int main() {
 
 
