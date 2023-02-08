@@ -34,7 +34,11 @@ int main() {
     std::cout << std::setw(10) << num1 << std::endl;
     std::cout << std::setw(10) << num2 << std::endl;
     std::cout << std::setw(10) << std::uppercase << hello << std::endl;
-
-5
-return 0;
+    //set field width 10 justify all left;
+    ruler();
+    std::cout << "\n--Set Width 10 justify all left-------------------" << std::endl;
+    std::cout << std::left << std::setw(10) << num1 << std::endl;
+    std::cout << std::left << std::setw(10) << num2 << std::endl;
+    std::cout << std::left << std::setw(10) << hello << std::endl;
+    return 0;
 }
