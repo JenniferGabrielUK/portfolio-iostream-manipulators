@@ -8,7 +8,24 @@ void ruler() {
 }
 
 int main() {
-
-
+    int num1{ 1234 };
+    double num2{ 1234.56789 };
+    std::string hello{ "Hello!" };
+    //Defaults
+    std::cout << "\n--Defaults----------------------------------------" << std::endl;
+    ruler();
+    std::cout << num1 
+              << num2   
+              << hello 
+              << std::endl;
+    std::cout << "\n--Defaults - on eper line-------------------------" << std::endl;
+    std::cout << num1 << std::endl;
+    std::cout << num2 << std::endl;
+    std::cout << hello << std::endl;
+    std::cout << "\n--Set Width 10 for num1---------------------------" << std::endl;
+    std::cout << std::setw(10) << num1 << std::endl;
+    std::cout << num2 << std::endl;
+    std::cout << hello << std::endl;
+    
 return 0;
 }
