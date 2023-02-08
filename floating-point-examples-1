@@ -1,0 +1,28 @@
+   #include <iostream>
+   #include <iomanip>
+   
+   int main() {
+   
+   //floating points - iostream manipulators
+    double num1{ 122345678.987654321 };
+    double num2{ 1234.56789 };
+    double num3{ 1234.0 };
+
+    //using default settings
+    std::cout << "--Defaults------------------" << std::endl;
+    std::cout << num1 << std::endl;
+    std::cout << num2 << std::endl;
+    std::cout << num3 << std::endl;
+    std::cout << "--Set Precision 2-----------" << std::endl;
+    std::setprecision(2);
+    std::cout << num1 << std::endl;
+    std::cout << num2 << std::endl;
+    std::cout << num3 << std::endl;
+    //using precision 5
+    std::cout << "--Set Precision 5-----------" << std::endl;
+    std::setprecision(5);
+    std::cout << num1 << std::endl;
+    std::cout << num2 << std::endl;
+    std::cout << num3 << std::endl;
+    return0;
+    }
