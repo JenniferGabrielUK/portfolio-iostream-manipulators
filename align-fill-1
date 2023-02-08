@@ -12,8 +12,8 @@ int main() {
     double num2{ 1234.56789 };
     std::string hello{ "Hello!" };
     //Defaults
-    std::cout << "\n--Defaults----------------------------------------" << std::endl;
     ruler();
+    std::cout << "\n--Defaults----------------------------------------" << std::endl;
     std::cout << num1 
               << num2   
               << hello 
