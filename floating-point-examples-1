@@ -48,5 +48,12 @@
     std::cout << num1 << std::endl;
     std::cout << num2 << std::endl;
     std::cout << num3 << std::endl;
+     //Back to defaults
+    std::cout << "Return to defaults-------" << std::endl;
+    std::cout.unsetf(std::ios::scientific | std::ios::fixed);
+    std::cout << std::resetiosflags(std::ios::showpos);
+    std::cout << num1 << std::endl;
+    std::cout << num2 << std::endl;
+    std::cout << num3 << std::endl;
     return 0;
     }
