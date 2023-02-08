@@ -55,5 +55,11 @@
     std::cout << num1 << std::endl;
     std::cout << num2 << std::endl;
     std::cout << num3 << std::endl;
+    //show trailing 0s to set point 10
+    std::cout << "--Precision 10 - showpoint -------" << std::endl;
+    std::cout << std::setprecision(10) << std::showpoint;
+    std::cout << num1 << std::endl;
+    std::cout << num2 << std::endl;
+    std::cout << num3 << std::endl;
     return 0;
     }
