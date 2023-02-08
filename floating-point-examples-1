@@ -61,5 +61,14 @@
     std::cout << num1 << std::endl;
     std::cout << num2 << std::endl;
     std::cout << num3 << std::endl;
+    //Reset defaults
+    std::cout << "Return to defaults-------" << std::endl;
+    std::cout.unsetf(std::ios::scientific | std::ios::fixed);
+    std::cout << std::setprecision(6);
+    std::cout << std::resetiosflags(std::ios::showpos);
+    std::cout << std::resetiosflags(std::ios::showpoint);
+    std::cout << num1 << std::endl;
+    std::cout << num2 << std::endl;
+    std::cout << num3 << std::endl;
     return 0;
     }
