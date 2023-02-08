@@ -36,6 +36,17 @@
     std::cout << num1 << std::endl;
     std::cout << num2 << std::endl;
     std::cout << num3 << std::endl;
-
+    //using precision 3 plus fixed and scentific notation
+    std::cout << "--Set Precision 3, fixed, scientific----" << std::endl;
+    std::cout << std::setprecision(3) << std::scientific;
+    std::cout << num1 << std::endl;
+    std::cout << num2 << std::endl;
+    std::cout << num3 << std::endl;
+    //using setprecision(3), fixed, scientific, uppercase (capitalizes e in scientific notation)
+    std::cout << "--Set Precision 3, fixed, scientic, uppercase" << std::endl;
+    std::cout << std::setprecision(3) << std::fixed << std::scientific << std::uppercase;
+    std::cout << num1 << std::endl;
+    std::cout << num2 << std::endl;
+    std::cout << num3 << std::endl;
     return 0;
     }
